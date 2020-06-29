@@ -3,10 +3,10 @@
 %% 将相关的音乐缓存文件转换为mp3文件  网易音乐
 
 
--module(unzip_bag).
+-module(unzip_mp3).
 -define(D_FILE, "E:\\mc").
 -define(D_UN_FILE, "E:\\mc").
-
+-define(D_FILE_MIE, 1024 * 1024 * 3).		%% 最小文件
 
 -define(D_BXOR_64, (16#A3) + (16#A3 bsl 2) + (16#A3 bsl 4) + (16#A3 bsl 6)).
 

@@ -2,7 +2,7 @@
 %% @doc @todo Add description to other_to_fun.
 %% table 转取字段，针对结构比较长的内容做自动生成，减少代码长度
 
--module(other_to_fun).
+-module(auto_code).
 
 %%--------------------------------------------------------------------
 %% Include files 
